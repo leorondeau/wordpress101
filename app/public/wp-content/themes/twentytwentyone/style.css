@@ -3770,6 +3770,7 @@ table.wp-calendar-table caption {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	row-gap: var(--global--spacing-vertical);
+	background-color: #999fa5;
 }
 
 .wp-custom-logo .site-header {
@@ -3779,6 +3780,7 @@ table.wp-calendar-table caption {
 
 	.site-header {
 		padding-top: calc(var(--global--spacing-vertical) / 0.75);
+		
 	}
 }
 @media only screen and (min-width: 822px) {
