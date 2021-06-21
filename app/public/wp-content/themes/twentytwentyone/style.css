@@ -860,7 +860,8 @@ template {
 }
 
 .site-header {
-	padding-top: calc(0.75 * var(--global--spacing-vertical));
+
+	padding-top: calc(0.2 * var(--global--spacing-vertical));
 	padding-bottom: calc(2 * var(--global--spacing-vertical));
 }
 @media only screen and (min-width: 482px) {
@@ -3783,7 +3784,7 @@ table.wp-calendar-table caption {
 @media only screen and (min-width: 822px) {
 
 	.site-header {
-		padding-top: calc(2.4 * var(--global--spacing-vertical));
+		padding-top: calc(.2 * var(--global--spacing-vertical));
 	}
 }
 
@@ -3806,13 +3807,14 @@ table.wp-calendar-table caption {
 }
 
 .site-title {
-	color: var(--branding--color-link);
+	/* color: var(--branding--color-link); */
+	color: red;
 	font-family: var(--branding--title--font-family);
 	font-size: var(--branding--title--font-size-mobile);
 	letter-spacing: normal;
 	text-transform: var(--branding--title--text-transform);
 	line-height: var(--global--line-height-heading);
-	margin-bottom: calc(var(--global--spacing-vertical) / 6);
+	/* margin-bottom: calc(var(--global--spacing-vertical) / 6); */
 }
 
 .site-title a {
