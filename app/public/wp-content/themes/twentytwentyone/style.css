@@ -4014,7 +4014,7 @@ table.wp-calendar-table caption {
 }
 
 .singular .entry-header {
-	border-bottom: 3px solid var(--global--color-border);
+	/* border-bottom: 3px solid var(--global--color-border); */
 	padding-bottom: calc(2 * var(--global--spacing-vertical));
 	margin-bottom: calc(3 * var(--global--spacing-vertical));
 }
@@ -4057,6 +4057,7 @@ table.wp-calendar-table caption {
 	letter-spacing: var(--heading--letter-spacing-h2);
 	line-height: var(--heading--line-height-h2);
 	overflow-wrap: break-word;
+	display: none;
 }
 
 .entry-title a {
