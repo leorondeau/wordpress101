@@ -3770,7 +3770,7 @@ table.wp-calendar-table caption {
 	align-items: flex-start;
 	flex-wrap: wrap;
 	row-gap: var(--global--spacing-vertical);
-	background-color: #999fa5;
+	background-color: #e9ecef;
 }
 
 .wp-custom-logo .site-header {
