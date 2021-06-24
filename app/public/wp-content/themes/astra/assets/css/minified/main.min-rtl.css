@@ -55,7 +55,7 @@ a:active {
 }
 a,
 a:focus,
-a:hover,
+a:hover ,
 a:visited {
   text-decoration: none;
 }
@@ -545,9 +545,9 @@ a:hover {
 a:focus {
   outline: thin dotted;
 }
-a:hover {
+/* a:hover {
   outline: 0;
-}
+} */
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
@@ -946,7 +946,7 @@ body {
 }
 .main-header-menu .sub-menu {
   width: 240px;
-  background: #fff;
+  background: rgb(95, 46, 46);
   right: -999em;
   position: absolute;
   top: 100%;
